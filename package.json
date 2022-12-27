@@ -1,0 +1,22 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "notes app backend",
+  "main": "./src/server.js",
+  "author": "heri sulistiyanto",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint --ext .js ./src"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "nanoid": "3.x.x"
+  }
+}
